@@ -1,0 +1,26 @@
+// global/settings.breakpoints
+//========================================================================== */
+
+// Very Large Devices, Wide Screens
+$break-xxl: "only screen and (max-width: 1450px)";
+
+// Large Devices, Wide Screens (Horizontal iPad mini)
+$break-xl: "only screen and (max-width: 1200px)"; 
+
+// Special case for .hero in index.html
+$break-vl: "only screen and (max-width: 1050px)";
+
+// Medium Devices, Desktops
+$break-l: "only screen and (max-width: 992px)";
+
+// Small Devices, Tablets (Vertical iPad mini)
+$break-m: "only screen and (max-width: 768px)";
+
+// Extra Small Devices, Phones (iPhone 6)
+$break-s: "only screen and (max-width: 480px)";
+
+
+// Affects Devices Only
+$break-touch: "only screen and (max-device-width: 1450px)";
+$break-tablet: "only screen and (max-device-width: 768px)";
+$break-phone: "only screen and (max-device-width: 480px)";
